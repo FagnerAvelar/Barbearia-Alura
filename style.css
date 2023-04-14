@@ -1,12 +1,35 @@
 body{
-    background-color: #c2eeec;
+    background-color: #a5e4e1;
+}
+
+
+#banner{                  /* o # é referência para ID Identificadores*/
+    width: 100%;    
+}
+
+h1{
+   text-align: center;
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+#missao{
+    font-size: 16px;
 }
 
 p{
     text-align: center;
-    
+    font-size: 16px;    
 }
 
 strong{
-    color: #f00;
+    color: green;
+}
+
+.itens{                    /* o ponto é referência para class*/
+    font-style: italic;
+    font-size: 16px;
 }

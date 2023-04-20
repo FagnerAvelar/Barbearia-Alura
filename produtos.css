@@ -6,7 +6,7 @@ header{
 .caixa{
     position: relative;
     width: 940px;
-    margin: 0 auto;
+    margin: 0 auto;                /*Margem abaixo e acima 0 e esquerda e direita automáticos*/
 }
 
 nav{
@@ -21,10 +21,71 @@ nav li{
 }
 
 nav a{
-    text-transform: uppercase;
-    color: black;
-    font-weight: bold;
-    font-size: 22px;
-    text-decoration: none; /*sublinhado no link*/
+    text-transform: uppercase;         /*tudo maiusculo*/
+    color: black;                    /*cor do texto*/
+    font-weight: bold;                 /*peso negrito*/
+    font-size: 22px;                   /*tamanho da fonte*/
+    text-decoration: none;             /*sublinhado no link NENHUM*/
 }
 
+nav a:hover{                           /*Hover indicativo do mouse*/
+    color: #d00f59;                  /*Cor quando passa o mouse*/
+    text-decoration: underline;        /*Sublinha quando passa o mouse*/
+}
+
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;                  /*espaçamento interno*/
+}
+
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid rgb(139, 34, 34);        /*Borda - Tamanho, tipo, cor*/
+    border-radius: 10px;                         /* Arredonda as bordas*/
+}
+
+.produtos li:hover{
+    border-color: #d00f59;
+}
+
+.produtos li:active{                       /*active indica mouse clicado*/
+    border-color: green;
+}
+
+.produtos li:hover h2{
+    font-size: 34px;
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao{
+    font-size: 18px;
+}
+
+.produto-preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+
+footer{
+    text-align: center;
+    background: url("bg.jpg");     /*Importando imagem para fundo*/
+    padding: 40px;
+}
+
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
+}

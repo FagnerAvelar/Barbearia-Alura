@@ -1,35 +1,35 @@
 header{
-    background: #bbbbbb;
-    padding: 20px 0;
+    background: #bbbbbb;         /*Cor de fundo*/
+    padding: 20px 0;               /*Espaçamento interno*/
 }
 
 .caixa{
     position: relative;
     width: 940px;
-    margin: 0 auto;                /*Margem abaixo e acima 0 e esquerda e direita automáticos*/
+    margin: 0 auto;                /*Externo - Margem abaixo e acima 0 e esquerda e direita automáticos*/
 }
 
 nav{
-    position: absolute;
+    position: absolute;            /* absolute Muda a possição inicial */
     top: 110px;
     right: 0;
 }
 
 nav li{
-    display: inline;
-    margin: 0 0 0 15px;
+    display: inline;                   /*Lista em linha*/
+    margin: 0 0 0 15px;                /*Espaçamento externo, topo, direita, baixo esquerda*/
 }
 
 nav a{
     text-transform: uppercase;         /*tudo maiusculo*/
-    color: black;                    /*cor do texto*/
+    color: #000000;                  /*cor do texto*/
     font-weight: bold;                 /*peso negrito*/
     font-size: 22px;                   /*tamanho da fonte*/
     text-decoration: none;             /*sublinhado no link NENHUM*/
 }
 
 nav a:hover{                           /*Hover indicativo do mouse*/
-    color: #d00f59;                  /*Cor quando passa o mouse*/
+    color: #c78c19;                  /*Cor quando passa o mouse*/
     text-decoration: underline;        /*Sublinha quando passa o mouse*/
 }
 
@@ -42,20 +42,20 @@ nav a:hover{                           /*Hover indicativo do mouse*/
 .produtos li{
     display: inline-block;
     text-align: center;
-    width: 30%;
+    width: 30%;                       /*Largura*/
     vertical-align: top;
     margin: 0 1.5%;
-    padding: 30px 20px;
-    box-sizing: border-box;
-    border: 2px solid rgb(139, 34, 34);        /*Borda - Tamanho, tipo, cor*/
-    border-radius: 10px;                         /* Arredonda as bordas*/
+    padding: 50px 20px;
+    box-sizing: border-box;           /*Configuração das margens*/
+    border: 4px solid black;        /*Borda - Tamanho, tipo, cor*/
+    border-radius: 15px;              /* Arredonda as bordas*/
 }
 
 .produtos li:hover{
-    border-color: #d00f59;
+    border-color: #c78c19;
 }
 
-.produtos li:active{                       /*active indica mouse clicado*/
+.produtos li:active{                  /*:active indica mouse clicado*/
     border-color: green;
 }
 
@@ -81,7 +81,7 @@ nav a:hover{                           /*Hover indicativo do mouse*/
 footer{
     text-align: center;
     background: url("bg.jpg");     /*Importando imagem para fundo*/
-    padding: 40px;
+    padding: 10px;
 }
 
 .copyright{

@@ -1,0 +1,58 @@
+body{
+    
+}
+
+#banner{                  /* o # é referência para ID Identificadores*/
+    width: 100%;    
+}
+
+.principal{
+    background-color: #bbbbbb;
+    padding: 30px;
+}
+
+.titulo-principal{
+    padding-left: 20px;
+
+}
+
+.titulo-centralizado{
+   text-align: center;
+   font-size: 30px;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    sidth: 20%;
+    margin-right: 15%;
+    ;
+}
+
+#missao{
+    font-size: 16px;
+}
+
+p{
+    text-align: center;
+    font-size: 16px;    
+}
+
+strong{
+    color: green;
+}
+
+.beneficios{
+    background: white;
+    padding: 20px;
+
+}
+
+.itens{                    /* o ponto é referência para class*/
+    font-style: italic;
+    font-size: 16px;
+}
+
+.imagembeneficios{
+    width: 50%;    
+}
